@@ -1,4 +1,9 @@
 .button-trigger__ewc-class {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  scroll-behavior: smooth;
   border-radius: 50%;
   height: 3.125rem;
   width: 3.125rem;
@@ -21,3 +26,4 @@
   }
   overflow: hidden;
 }
+

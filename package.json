@@ -4,7 +4,7 @@
   "main": "index.tsx",
   "license": "MIT",
   "scripts": {
-    "start": "webpack serve --port 3000 --mode development --open --hot --env mainColor=#8520d0 --env name='Soporte Centro Médico' --env description='Asistente Virtual' --env avatar=../../assets/user.svg --env socketUrl=https://ws-ailalia.ngrok.io --env restUrl=https://rest-ailalia.ngrok.io/rest/v1/api",
+    "start": "webpack serve --port 3000 --mode development --open --hot --env mainColor=#8520d0 --env name='Soporte Centro Médico' --env description='Asistente Virtual' --env avatar=../../assets/user.svg --env socketUrl=https://ucchback.elipsechat.com/ --env restUrl=https://ucchback.elipsechat.com/rest/v1/api",
     "build": "webpack --mode production --env mainColor=#8520d0 --env name='Soporte Centro Médico' --env description='Asistente Virtual' --env avatar=assets/user.svg --env socketUrl=https://ucchback.elipsechat.com/ --env restUrl=https://ucchback.elipsechat.com/rest/v1/api"
   },
   "dependencies": {
